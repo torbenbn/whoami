@@ -2,7 +2,7 @@
 
 IMAGE_NAME := torben-b/whoami
 
-default: check test build
+default: test build
 
 build:
 	CGO_ENABLED=0 go build -a --trimpath --installsuffix cgo --ldflags="-s" -o whoami
