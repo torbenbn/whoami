@@ -1,6 +1,6 @@
 .PHONY: default check test build image
 
-IMAGE_NAME := traefik/whoami
+IMAGE_NAME := torben-b/whoami
 
 default: check test build
 
