@@ -1,4 +1,4 @@
-module github.com/traefik/whoami
+module github.com/torbenbn/whoami
 
 go 1.21
 

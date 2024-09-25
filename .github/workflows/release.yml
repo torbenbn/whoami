@@ -2,7 +2,7 @@ name: "Release a tag"
 on:
   push:
     tags:
-      - v*
+      - test-v*
 
 jobs:
   release:
