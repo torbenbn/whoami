@@ -38,7 +38,7 @@ jobs:
 
       - name: 'Docker auth'
         run: |-
-              gcloud auth configure-docker ${{ env.GAR_LOCATION }}-docker.pkg.dev --quiet
+              gcloud auth configure-docker ${{ env.GAR_LOCATION }} --quiet
 
       # https://github.com/marketplace/actions/setup-go-environment
       - name: Set up Go ${{ env.GO_VERSION }}
