@@ -12,6 +12,8 @@ jobs:
     env:
       GO_VERSION: stable
       CGO_ENABLED: 0
+      GAR_LOCATION: australia-southeast2-docker.pkg.dev/torben-b/whoami
+      PROJECT_ID: torben-b
 
     steps:
 
@@ -55,4 +57,4 @@ jobs:
           version: latest
           args: release --clean
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_REPO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
