@@ -1,6 +1,8 @@
 name: "Release Process - JSON Key - Medium Article"
 on:
   push:
+    tags:
+      - v*
 
 jobs:
   release:
