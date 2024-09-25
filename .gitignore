@@ -2,3 +2,4 @@
 vendor/
 /whoami
 dist/
+gha-creds-*.json
