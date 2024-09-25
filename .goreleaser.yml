@@ -48,6 +48,7 @@ dockers:
       - 'torben-b/whoami:latest-amd64'
       - 'torben-b/whoami:{{ .Tag }}-amd64'
       - 'torben-b/whoami:v{{ .Major }}.{{ .Minor }}-amd64'
+    skip_push: true
     build_flag_templates:
       - '--pull'
       # https://github.com/opencontainers/image-spec/blob/main/annotations.md#pre-defined-annotation-keys
