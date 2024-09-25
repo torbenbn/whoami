@@ -14,7 +14,7 @@ jobs:
     env:
       GO_VERSION: stable
       CGO_ENABLED: 0
-      GAR_LOCATION: australia-southeast2-docker.pkg.dev/torben-b/whoami
+      GAR_LOCATION: australia-southeast2-docker.pkg.dev
       PROJECT_ID: torben-b
 
     steps:
